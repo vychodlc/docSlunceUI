@@ -9,7 +9,7 @@ hero:
   text: 一个Vue3组件库
   tagline: 让你的组件库开发更简单
   image:
-    /src: /logo.png
+    src: /logo.png
     alt: SlunceUI
   actions:
     - theme: brand

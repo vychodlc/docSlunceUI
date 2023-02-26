@@ -12,7 +12,9 @@
   "author": "Vychod",
   "license": "ISC",
   "devDependencies": {
+    "slunce-ui": "^0.0.7",
     "vitepress": "^1.0.0-alpha.47",
+    "vitepress-theme-demoblock": "^2.0.2",
     "vue": "^3.2.47"
   }
 }
