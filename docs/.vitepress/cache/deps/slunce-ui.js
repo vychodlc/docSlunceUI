@@ -10,11 +10,11 @@ import {
 } from "./chunk-APGZIJ2V.js";
 
 // node_modules/slunce-ui/dist/slunce-ui.js
-var _ = {
+var f = {
   name: "sl-button"
 };
-var b = defineComponent({
-  ..._,
+var y = defineComponent({
+  ...f,
   props: {
     type: {
       type: String,
@@ -22,13 +22,14 @@ var b = defineComponent({
     },
     disabled: Boolean,
     round: Boolean,
+    plain: Boolean,
     size: {
       type: String,
       default: "default"
     },
-    customColor: {
+    color: {
       type: String,
-      default: ""
+      default: "#000"
     },
     leftIcon: String,
     rightIcon: String,
@@ -36,32 +37,31 @@ var b = defineComponent({
   },
   setup(e) {
     const t = e, o = {
-      background: t.customColor,
-      border: t.customColor,
-      color: "#fff"
-    }, s = computed(() => [
+      "--custom-color": t.color
+    }, l = computed(() => [
       t.size == "medium" ? "sl-button-medium" : t.size == "small" ? "sl-button-small" : t.size == "mini" ? "sl-button-mini" : "sl-button",
       t.type ? `sl-button-${t.type}` : "",
-      t.disabled ? `sl-button-${t.type ? t.type : "default"}-disabled` : "",
-      t.round ? `sl-button-${t.size ? t.size : "default"}-round` : ""
-    ]), l = computed(() => [
-      t.customColor == "" ? {} : t.type == "default" ? {} : o
+      t.disabled ? "is-disabled" : "",
+      t.plain ? "is-plain" : "",
+      t.round ? "is-round" : ""
+    ]), s = computed(() => [
+      t.color == "" ? {} : t.type == "default" ? {} : o
     ]);
-    return (r, z) => (openBlock(), createElementBlock("button", {
-      class: normalizeClass(["slButton", unref(s)]),
-      style: normalizeStyle(unref(l))
+    return (r, B) => (openBlock(), createElementBlock("button", {
+      class: normalizeClass(["slButton", unref(l)]),
+      style: normalizeStyle(unref(s))
     }, [
       renderSlot(r.$slots, "default", {}, void 0, true)
     ], 6));
   }
 });
-var y = (e, t) => {
+var b = (e, t) => {
   const o = e.__vccOpts || e;
-  for (const [s, l] of t)
-    o[s] = l;
+  for (const [l, s] of t)
+    o[l] = s;
   return o;
 };
-var n = y(b, [["__scopeId", "data-v-a9940aa4"]]);
+var n = b(y, [["__scopeId", "data-v-4d739fc3"]]);
 n.install = (e) => {
   e.component(n.name, n);
 };
@@ -71,11 +71,11 @@ var g = [
 var S = (e) => {
   g.forEach((t) => e.component(t.name, t));
 };
-var C = {
+var z = {
   install: S
 };
 export {
-  C as default,
+  z as default,
   n as slButton
 };
 //# sourceMappingURL=slunce-ui.js.map
