@@ -4,8 +4,10 @@
 基础的图标用法
 <div class='box' style="border: 1px solid #c0c0c2; border-radius: 5px; padding: 20px 10px">
   <div>
-    <sl-icon name='close'></sl-icon>
-    <sl-icon name='search'></sl-icon>
+    <sl-icon name="play" color="#9de7d1" width="50" height="50"></sl-icon>
+    <sl-icon name="plus" color="#9de7d1" width="50" height="50"></sl-icon>
+    <sl-icon name="minus" color="#9de7d1" width="50" height="50"></sl-icon>
+    <!-- <sl-icon name="search" color="#9de7d1" width="80" height="80"></sl-icon> -->
   </div>
 </div>
 
@@ -14,8 +16,10 @@
 ::: details 显示代码
 ```html
 <div>
-  <sl-icon name='close'></sl-icon>
-  <sl-icon name='search'></sl-icon>
+  <sl-icon name="play" color="#9de7d1" width="50" height="50"></sl-icon>
+  <sl-icon name="plus" color="#9de7d1" width="50" height="50"></sl-icon>
+  <sl-icon name="minus" color="#9de7d1" width="50" height="50"></sl-icon>
+  <sl-icon name="search" color="#9de7d1" width="80" height="80"></sl-icon>
 </div>
 ```
 :::

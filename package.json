@@ -17,6 +17,7 @@
     "vue": "^3.2.47"
   },
   "dependencies": {
-    "slunce-ui": "^0.0.13"
+    "slunce-ui": "^0.0.14",
+    "vite-plugin-svg-icons": "^2.0.1"
   }
 }
