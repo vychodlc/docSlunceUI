@@ -1,17 +1,17 @@
 {
-  "hash": "4a6a3632",
-  "browserHash": "b0d731ad",
+  "hash": "77b77087",
+  "browserHash": "164fea0b",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "278ed0ee",
+      "fileHash": "0d0bda7f",
       "needsInterop": false
     },
     "slunce-ui": {
       "src": "../../../../node_modules/slunce-ui/dist/slunce-ui.js",
       "file": "slunce-ui.js",
-      "fileHash": "4c6d1672",
+      "fileHash": "99f7b0be",
       "needsInterop": false
     }
   },

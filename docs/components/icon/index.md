@@ -1,3 +1,4 @@
+
 # ICON 图标
 常见的操作按钮
 ## 基础用法
@@ -7,7 +8,7 @@
     <sl-icon name="play" color="#9de7d1" width="50" height="50"></sl-icon>
     <sl-icon name="plus" color="#9de7d1" width="50" height="50"></sl-icon>
     <sl-icon name="minus" color="#9de7d1" width="50" height="50"></sl-icon>
-    <!-- <sl-icon name="search" color="#9de7d1" width="80" height="80"></sl-icon> -->
+    <sl-icon name="search" color="#9de7d1" width="80" height="80"></sl-icon>
   </div>
 </div>
 
