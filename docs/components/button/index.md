@@ -175,3 +175,4 @@
 | plain |	是否为朴素按钮 | boolean | false |
 | round | 是否圆形按钮 | boolean | - | false |
 | disabled | 是否禁用状态 | boolean | - | false |
+| color | 自定义按钮颜色, 并自动计算 `hover` 和 `active` 触发后的颜色 | string | - | - |

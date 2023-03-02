@@ -18,6 +18,9 @@ hero:
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/vychodlc/SlunceUI
+    - theme: alt
+      text: 前往组件库
+      link: /components/button/
 
 features:
   - icon: 💡

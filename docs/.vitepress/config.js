@@ -38,7 +38,7 @@ export default defineConfig({
       ],
       "/components/": [
         {
-          text: "基础组件",
+          text: "Basic 基础组件",
           items: [
             {
               text: "Button 按钮",
@@ -57,6 +57,15 @@ export default defineConfig({
               link: "/components/layout/",
             }
           ],
+        },
+        {
+          text: "Feedback 反馈组件",
+          items: [
+            {
+              text: "Message 消息提示",
+              link: "/components/feedback/message/",
+            },
+          ]
         }
       ]
     },
