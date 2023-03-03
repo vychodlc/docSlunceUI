@@ -6,7 +6,7 @@ export default defineConfig({
     logo: '/logo.png',
     nav: [
       { text: "指南", link: "/guide/installation" },
-      { text: "组件", link: "/components/button/" },
+      { text: "组件", link: "/components/basic/button/" },
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/vychodlc/SlunceUI" },
@@ -42,19 +42,19 @@ export default defineConfig({
           items: [
             {
               text: "Button 按钮",
-              link: "/components/button/",
+              link: "/components/basic/button/",
             },
             {
               text: "Icon 图标",
-              link: "/components/icon/",
+              link: "/components/basic/icon/",
             },
             {
               text: "Link 链接",
-              link: "/components/link/",
+              link: "/components/basic/link/",
             },
             {
               text: "Layout 布局",
-              link: "/components/layout/",
+              link: "/components/basic/layout/",
             }
           ],
         },

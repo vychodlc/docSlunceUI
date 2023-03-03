@@ -42,3 +42,10 @@ details summary {
   font-weight: bold;
   color: var(--vp-c-brand-light);
 }
+
+.vp-doc th, .vp-doc td {
+  padding: 4px 10px;
+  border: none;
+  border-bottom: 1px solid var(--vp-c-divider);
+  background-color: var(--vp-c-bg);
+}
