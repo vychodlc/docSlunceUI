@@ -3,28 +3,31 @@
 ## 安装插件
  
 ```
-npm install slunceui
-或：yarn add slunceui
+npm install slunce-ui
+或：yarn add slunce-ui
+或：cnpm install slunce-ui
 ```
  
-## 引入并注册插件
+## 使用 slunce-ui
  
 ```TypeScript
 // 全部引入
-import SlunceUI from 'slunceui'
-import 'slunceui/dist/style.css'
+import SlunceUI from 'slunce-ui'
+import 'slunce-ui/dist/style.css'
  
 app.use(SlunceUI)
- 
-// 按需引入
-import asButton from 'SlunceUI'
-import 'SlunceUI/dist/style.css'
- 
-app.use(asButton)
 ```
- 
-## 在项目中使用(示例)
- 
+
+## 愉快开始
 ```HTML
-<asButton>This is a button.</asButton>
+<sl-button>This is a button.</sl-button>
+```
+
+## 按需引用
+```TypeScript
+import { slButton, slInput } from "slunce-ui";
+```
+```html
+<sl-button type='primary'>点击</sl-button>
+<sl-input v-model="value" placeholder="基本使用"></sl-input>
 ```
