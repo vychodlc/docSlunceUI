@@ -9,27 +9,27 @@
 </div>
 
 <script lang="ts" setup>
-import {Message} from "slunce-ui"
+import {slMessage} from "slunce-ui"
 import { h } from 'vue'
 const openMsg = (text='info') => {
-  Message({
+  slMessage({
     text: text,
     type: text
   })
 }
 const openVn = () => {
-  Message({
+  slMessage({
     text: h('p', null, '默认消息提示(VNode)')
   })
 }
 const openMsgTimeout = (timeout=2000) => {
-  Message({
+  slMessage({
     text: '消息提示',
     timeout: timeout
   })
 }
 const openMsgClose = (text='info') => {
-  Message({
+  slMessage({
     text: `${text}-可关闭的消息`,
     type: text,
     close: true
@@ -47,16 +47,16 @@ const openMsgClose = (text='info') => {
 </div>
 
 <script lang="ts" setup>
-import {Message} from "slunce-ui"
+import {slMessage} from "slunce-ui"
 import { h } from 'vue'
 const openMsg = (text='info') => {
-  Message({
+  slMessage({
     text: text,
     type: text
   })
 }
 const openVn = () => {
-  Message({
+  slMessage({
     text: h('p', null, '默认消息提示(VNode)')
   })
 }
@@ -86,10 +86,10 @@ const openVn = () => {
 </div>
 
 <script lang="ts" setup>
-import {Message} from "slunce-ui"
+import {slMessage} from "slunce-ui"
 import { h } from 'vue'
 const openMsg = (text='info') => {
-  Message({
+  slMessage({
     text: text,
     type: text
   })
@@ -119,10 +119,10 @@ const openMsg = (text='info') => {
 </div>
 
 <script lang="ts" setup>
-import {Message} from "slunce-ui"
+import {slMessage} from "slunce-ui"
 import { h } from 'vue'
 const openMsgTimeout = (timeout=2000) => {
-  Message({
+  slMessage({
     text: ('消息提示'),
     timeout: timeout
   })
@@ -152,10 +152,10 @@ const openMsgTimeout = (timeout=2000) => {
 </div>
 
 <script lang="ts" setup>
-import {Message} from "slunce-ui"
+import {slMessage} from "slunce-ui"
 import { h } from 'vue'
 const openMsgClose = () => {
-  Message({
+  slMessage({
     text: '可关闭的消息',
     close: true
   })
@@ -163,3 +163,13 @@ const openMsgClose = () => {
 </script>
 ```
 :::
+
+## Message API
+
+### 属性
+| 参数 | 说明 | 类型 | 可选值	| 默认值|
+| - | - | - | - | - |
+| text | 消息提示文本内容 | string\|VNode | - | - |
+| type | 消息提示类型 | string | success / warning / danger / info | info |
+| timeout | 消息提示框消失时间（单位：毫秒ms） | number | - | 2500 |
+| close | 可关闭弹窗 | boolean | - | false |

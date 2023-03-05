@@ -55,6 +55,10 @@ export default defineConfig({
             {
               text: "Layout 布局",
               link: "/components/basic/layout/",
+            },
+            {
+              text: "Color 颜色",
+              link: "/components/basic/color/",
             }
           ],
         },

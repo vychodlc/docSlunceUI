@@ -48,4 +48,16 @@ details summary {
   border: none;
   border-bottom: 1px solid var(--vp-c-divider);
   background-color: var(--vp-c-bg);
+  text-align: center;
+}
+
+.vp-doc table {
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+.vp-doc table thead,
+.vp-doc table tbody {
+  text-align: center;
+  width: 100%;
 }
