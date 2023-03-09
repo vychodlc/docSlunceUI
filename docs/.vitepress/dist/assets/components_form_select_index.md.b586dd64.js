@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./app.dbbb272d.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"components/form/select/index.md"}'),n={name:"components/form/select/index.md"};function r(s,a,c,p,d,i){return o(),t("div")}const f=e(n,[["render",r]]);export{_ as __pageData,f as default};
